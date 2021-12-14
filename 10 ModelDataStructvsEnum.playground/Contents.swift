@@ -27,7 +27,6 @@ func displaySession(session: Session) {
 
 displaySession(session: keynote)
 
-
 /*
 struct Session {
     let title: String
