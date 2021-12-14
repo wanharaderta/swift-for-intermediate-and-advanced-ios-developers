@@ -1,5 +1,6 @@
 import UIKit
 
+
 struct Teacher {
     let name: String
     let courses: [String]
