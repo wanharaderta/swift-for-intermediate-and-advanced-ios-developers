@@ -5,6 +5,8 @@ struct Teacher {
     let courses: [String]
 }
 
+
+
 struct Student {
     let name: String
     let courses: [String]
