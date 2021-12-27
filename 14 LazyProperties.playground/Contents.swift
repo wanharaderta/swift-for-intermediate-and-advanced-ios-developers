@@ -9,7 +9,6 @@ enum Level {
 struct Exam {
     
     var level: Level
-    
     lazy private(set) var questions: [String] = {
         
         sleep(5)
