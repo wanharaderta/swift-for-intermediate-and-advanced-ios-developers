@@ -7,7 +7,6 @@ enum Level {
 }
 
 struct Exam {
-    
     var level: Level
     lazy private(set) var questions: [String] = {
         
@@ -22,7 +21,6 @@ struct Exam {
                 return ["What is 122+332", "What is 441+255", "What is 266+250"]
         }
     }()
-    
 }
 
 var exam = Exam(level: .easy)
