@@ -1,5 +1,6 @@
 import UIKit
 
+
 struct Website {
     
     init(url: String) {
@@ -21,3 +22,4 @@ struct Website {
 var website = Website(url: "www.news.com/?search=rampok di indonesia")
 //website.url = "www.news.com/?search=rampok di indonesia"
 print(website)
+
